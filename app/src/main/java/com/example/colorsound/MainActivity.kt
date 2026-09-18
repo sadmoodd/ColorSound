@@ -40,6 +40,6 @@ fun GreetingPreview() {
 @Composable
 private fun MainScreenPreview() {
     ColorSoundTheme {
-        LiveScreen()
+        AppNavHost()
     }
 }
